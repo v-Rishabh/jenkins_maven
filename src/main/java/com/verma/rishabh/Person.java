@@ -9,7 +9,7 @@ class Person{
     }
 
     public String getFullName(){
-        String fullName = firstName +" "+ secondName;
+        String fullName = firstName +"-"+ secondName;
         return fullName;
     }
 }
