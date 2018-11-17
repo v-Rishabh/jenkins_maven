@@ -16,9 +16,9 @@ public class PersonTest
     public void testFullName()
     {
         Person p = new Person("Rishabh","Verma");
-        String expectedAnswer = "Rishabh Verma";
+        String expectedAnswer = "Rishabh-Verma";
         String returnedName = p.getFullName();
-        //assertEquals("Full Name Test","Rishabh Verma",returnedName);
+        //assertEquals("Full Name Test","Rishabh-Verma",returnedName);
         assertTrue(returnedName.equals(expectedAnswer));
     }
 }
